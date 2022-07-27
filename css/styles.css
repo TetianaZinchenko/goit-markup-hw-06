@@ -705,6 +705,8 @@ ul {
   border-radius: 4px;
 
   transition: border-color var(--timing-function);
+
+  outline: none;
 }
 
 .email-input:hover,
@@ -889,6 +891,7 @@ ul {
   display: block;
 
   transition: border-color var(--timing-function);
+  outline: none;
 }
 
 .input:hover {
@@ -911,9 +914,12 @@ ul {
   color: var(--primary-text-color);
 
   transition: border-color var(--timing-function);
+
+  outline: none;
 }
 
-.input-comments:hover {
+.input-comments:hover,
+.input-comments:focus {
   border-color: var(--accent-color);
 }
 
