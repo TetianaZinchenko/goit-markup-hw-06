@@ -739,6 +739,11 @@ ul {
   cursor: pointer;
 }
 
+.join-button:hover,
+.join-button:focus {
+  background-color: var(--btn-bg-color);
+}
+
 .icon-send {
   fill: currentColor;
   margin-left: 10px;
@@ -923,6 +928,11 @@ ul {
   transition: fill var(--timing-function);
 }
 
+/* .input-field:hover,
+.input-field:focus {
+  border-color: var(--accent-color);
+} */
+
 .input-field:hover .icon-input,
 .input-field:focus-within .icon-input {
   fill: var(--accent-color);
@@ -1002,6 +1012,11 @@ ul {
   letter-spacing: 0.06em;
   text-align: center;
   cursor: pointer;
+}
+
+.send-button:hover,
+.send-button:focus {
+  background-color: var(--btn-bg-color);
 }
 
 .portfolio-button,
